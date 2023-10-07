@@ -1,0 +1,64 @@
+section {
+    background-color: #fff5ea;
+}
+
+.content__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.about__image {
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    max-height: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 35px 0;
+    font-size: 2.2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+section :nth-child(4) {
+    margin-bottom: 40px;
+}
+
+.about__explore {
+    background-color: #dba871;
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 60px;
+    border-radius: 5px;
+}
+
+.about__explore h2 {
+    font-size: 2rem;
+    padding: 5px;
+}
+
+.about__explore :nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.about__explore button {
+    cursor: pointer;
+    background-color: #111014;
+    font-size: 1.2rem;
+    color: #fff5ea;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.about__explore button:hover {
+    background-color: #0a0a0c;
+}

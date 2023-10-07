@@ -1,0 +1,38 @@
+/* NAVBAR */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #faeada;
+    height: 85px;
+  }
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .logo__link {
+    color: black;
+  }
+  
+  nav > ul {
+    display: flex;
+    gap: 0 15px;
+  }
+  
+  nav > ul > li {
+    font-size: 1.1rem;
+  }
+  
+  .link {
+    color: black;
+  }
+
+  .active {
+    text-decoration: underline;
+    font-weight: bold;
+    text-underline-offset: 3px;
+  }

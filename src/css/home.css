@@ -1,0 +1,38 @@
+/* HOME CONTENT */
+
+.main-content {
+    position: relative;
+    background-image: url(../images/home-hero.png);
+    background-size: cover;
+    justify-content: space-around;
+    color: #fff;
+    padding: 0 50px;
+    height: calc(100vh - 85px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-content h1 {
+    font-size: 3rem;
+  }
+  
+  .main-content p {
+    font-size: 1.5rem;
+  }
+  
+  .main-content button {
+    cursor: pointer;
+    background-color: #e6742f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    padding: 20px;
+    font-size: 1.7rem;
+    transition: 0.1s ease-in-out;
+  }
+  
+  .main-content button:hover {
+    background-color: #c55d1d;
+  }
